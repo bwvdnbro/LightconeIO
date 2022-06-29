@@ -160,7 +160,7 @@ def message(m):
         print(m)
 
 
-def distribute_pixels(comm, nside):
+def distribute_pixels(comm, nside, theta_min, theta_max):
     """
     Decide how to assign HEALPix pixels to MPI ranks.
 
@@ -185,6 +185,21 @@ def distribute_pixels(comm, nside):
     # Find number of pixels on each rank
     comm_rank = comm.Get_rank()
     comm_size = comm.Get_size()
+
+    theta_boundary = np.linspace(theta_min, theta_max, comm_size+1)
+    theta_boundary[0] = 0.
+    theta_boundary[-1] = np.pi
+    phi_ref = np.zeros(theta_boundary.shape)
+    pixel_boundary = hp.ang2pix(nside, theta_boundary, phi_ref)
+    pixel_boundary[0] = 0
+    pixel_boundary[-1] = hp.nside2npix(nside)
+    local_offset = pixel_boundary[comm_rank]
+    nr_local_pixels = pixel_boundary[comm_rank+1] - pixel_boundary[comm_rank]
+    nr_total_pixels = pixel_boundary[-1] - pixel_boundary[0]
+    return nr_total_pixels, nr_local_pixels, local_offset, theta_boundary
+
+    """
+    # old version
     nr_total_pixels = hp.pixelfunc.nside2npix(nside)
     nr_local_pixels = nr_total_pixels // comm_size
     local_offset = nr_local_pixels * comm_rank
@@ -208,7 +223,7 @@ def distribute_pixels(comm, nside):
         theta_boundary[i+1] = 0.5*(theta1+theta2)
 
     return nr_total_pixels, nr_local_pixels, local_offset, theta_boundary
-
+    """
 
 def make_sky_map(input_filename, ptype, property_names, particle_value_function,
                       zmin, zmax, nside, vector = None, radius = None, smooth=True, progress=False):
@@ -242,9 +257,16 @@ def make_sky_map(input_filename, ptype, property_names, particle_value_function,
     # Open the lightcone
     lightcone = pr.IndexedLightcone(input_filename, comm=comm)
 
+    if vector is None:
+      theta_min = 0.
+      theta_max = np.pi
+    else:
+      theta = hp.vec2ang(np.array(vector))[0][0]
+      theta_min = theta - radius
+      theta_max = theta + radius
     # Create an empty HEALPix map, distributed over MPI ranks.
     # Here we assume we can put equal sized chunks of the map on each rank.
-    nr_total_pixels, nr_local_pixels, local_offset, theta_boundary = distribute_pixels(comm, nside)
+    nr_total_pixels, nr_local_pixels, local_offset, theta_boundary = distribute_pixels(comm, nside, theta_min, theta_max)
     max_pixrad = hp.pixelfunc.max_pixrad(nside)
     message(f"Total number of pixels = {nr_total_pixels}")
     
