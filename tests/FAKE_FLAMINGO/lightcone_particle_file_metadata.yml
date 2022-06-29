@@ -1,0 +1,2795 @@
+BH:
+  Attributes: {}
+  Datasets:
+    AccretionRates:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 6.443997950038578e+23
+        Expression for physical CGS units:
+          Type: string
+          value: U_M U_t^-1  [ g s^-1 ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - -1.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: BH/AccretionRates
+      Max: 39.347537994384766
+      Min: 0.0
+      Shape:
+      - 38535
+      Type: float32
+    Coordinates:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 3.08567758e+24
+        Expression for physical CGS units:
+          Type: string
+          value: a U_L  [ cm ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: BH/Coordinates
+      Max:
+      - 374.9878766259917
+      - 312.4845866259916
+      - 381.4432166259917
+      Min:
+      - 189.29091087607486
+      - 0.02431662599167339
+      - -393.40277337400835
+      Shape:
+      - 38535
+      - 3
+      Type: float64
+    CumulativeNumberOfSeeds:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: BH/CumulativeNumberOfSeeds
+      Max: 284
+      Min: 1
+      Shape:
+      - 38535
+      Type: int32
+    DynamicalMasses:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.98841e+43
+        Expression for physical CGS units:
+          Type: string
+          value: U_M  [ g ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: BH/DynamicalMasses
+      Max: 29.967679977416992
+      Min: 0.0989062562584877
+      Shape:
+      - 38535
+      Type: float32
+    ExpansionFactors:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: BH/ExpansionFactors
+      Max: 0.915956974029541
+      Min: 0.9038556218147278
+      Shape:
+      - 38535
+      Type: float32
+    FOFGroupIDs:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: BH/FOFGroupIDs
+      Max: 2147483647
+      Min: 6
+      Shape:
+      - 38535
+      Type: int64
+    FormationScaleFactors:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: BH/FormationScaleFactors
+      Max: 0.9114333391189575
+      Min: 0.09447453916072845
+      Shape:
+      - 38535
+      Type: float32
+    LastAGNFeedbackScaleFactors:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: BH/LastAGNFeedbackScaleFactors
+      Max: 0.9157634377479553
+      Min: 0.0
+      Shape:
+      - 38535
+      Type: float32
+    LastHighEddingtonFractionScaleFactors:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: BH/LastHighEddingtonFractionScaleFactors
+      Max: 0.9157634377479553
+      Min: -1.0
+      Shape:
+      - 38535
+      Type: float32
+    LastMajorMergerScaleFactors:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: BH/LastMajorMergerScaleFactors
+      Max: 0.9149889349937439
+      Min: -1.0
+      Shape:
+      - 38535
+      Type: float32
+    LastMinorMergerScaleFactors:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: BH/LastMinorMergerScaleFactors
+      Max: 0.9111261367797852
+      Min: -1.0
+      Shape:
+      - 38535
+      Type: float32
+    NumberOfAGNEvents:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: BH/NumberOfAGNEvents
+      Max: 944
+      Min: 0
+      Shape:
+      - 38535
+      Type: int32
+    NumberOfHeatingEvents:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: BH/NumberOfHeatingEvents
+      Max: 2556
+      Min: 0
+      Shape:
+      - 38535
+      Type: int32
+    NumberOfMergers:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: BH/NumberOfMergers
+      Max: 213
+      Min: 0
+      Shape:
+      - 38535
+      Type: int32
+    ParticleIDs:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: BH/ParticleIDs
+      Max: 11663977654
+      Min: 5832001078
+      Shape:
+      - 38535
+      Type: int64
+    SubgridMasses:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.98841e+43
+        Expression for physical CGS units:
+          Type: string
+          value: U_M  [ g ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: BH/SubgridMasses
+      Max: 1.0132942199707031
+      Min: 9.999999747378752e-06
+      Shape:
+      - 38535
+      Type: float32
+    TotalAccretedMasses:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.98841e+43
+        Expression for physical CGS units:
+          Type: string
+          value: U_M  [ g ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: BH/TotalAccretedMasses
+      Max: 0.7297778725624084
+      Min: 0.0
+      Shape:
+      - 38535
+      Type: float32
+    Velocities:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 100000.0
+        Expression for physical CGS units:
+          Type: string
+          value: U_L U_t^-1  [ cm s^-1 ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - -1.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: BH/Velocities
+      Max:
+      - 2308.72119140625
+      - 2532.72119140625
+      - 2013.12109375
+      Min:
+      - -2104.47900390625
+      - -2281.279052734375
+      - -2514.47900390625
+      Shape:
+      - 38535
+      - 3
+      Type: float32
+DM:
+  Attributes: {}
+  Datasets:
+    Coordinates:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 3.08567758e+24
+        Expression for physical CGS units:
+          Type: string
+          value: a U_L  [ cm ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: DM/Coordinates
+      Max:
+      - 375.0006700284803
+      - 312.5005491986835
+      - 388.9450071320539
+      Min:
+      - 187.50945947287926
+      - -0.001690934027124058
+      - -395.79943465375317
+      Shape:
+      - 18701924
+      - 3
+      Type: float64
+    ExpansionFactors:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: DM/ExpansionFactors
+      Max: 0.9159571528434753
+      Min: 0.903855562210083
+      Shape:
+      - 18701924
+      Type: float32
+    Masses:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.98841e+43
+        Expression for physical CGS units:
+          Type: string
+          value: U_M  [ g ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: DM/Masses
+      Max: 0.5748704671859741
+      Min: 0.5546813011169434
+      Shape:
+      - 18701924
+      Type: float32
+    ParticleIDs:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: DM/ParticleIDs
+      Max: 5831999303
+      Min: 851
+      Shape:
+      - 18701924
+      Type: int64
+    Velocities:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 100000.0
+        Expression for physical CGS units:
+          Type: string
+          value: U_L U_t^-1  [ cm s^-1 ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - -1.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: DM/Velocities
+      Max:
+      - 2764.013916015625
+      - 3284.68505859375
+      - 2703.1533203125
+      Min:
+      - -2671.9150390625
+      - -2766.751708984375
+      - -3002.39404296875
+      Shape:
+      - 18701924
+      - 3
+      Type: float32
+Gas:
+  Attributes: {}
+  Datasets:
+    ComptonYParameters:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 9.521406127714655e+48
+        Expression for physical CGS units:
+          Type: string
+          value: U_L^2  [ cm^2 ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 2.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Gas/ComptonYParameters
+      Max: 3.9508449845016e-09
+      Min: 0.0
+      Shape:
+      - 16966525
+      Type: float64
+    Coordinates:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 3.08567758e+24
+        Expression for physical CGS units:
+          Type: string
+          value: a U_L  [ cm ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Gas/Coordinates
+      Max:
+      - 375.00021363706526
+      - 312.5021260060097
+      - 388.70916346996603
+      Min:
+      - 187.50076550128318
+      - -2.970949481095886e-05
+      - -395.756156530034
+      Shape:
+      - 16966525
+      - 3
+      Type: float64
+    Densities:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 6.767905773162602e-31
+        Expression for physical CGS units:
+          Type: string
+          value: a^-3 U_M U_L^-3  [ g cm^-3 ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - -3.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - -3.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Gas/Densities
+      Max: 98566144.0
+      Min: 0.018035888671875
+      Shape:
+      - 16966525
+      Type: float32
+    ElectronNumberDensities:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 3.403677195931725e-74
+        Expression for physical CGS units:
+          Type: string
+          value: U_L^-3  [ cm^-3 ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - -3.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Gas/ElectronNumberDensities
+      Max: 2.9683030688276857e+74
+      Min: 0.0
+      Shape:
+      - 16966525
+      Type: float64
+    ExpansionFactors:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Gas/ExpansionFactors
+      Max: 0.9159571528434753
+      Min: 0.903855562210083
+      Shape:
+      - 16966525
+      Type: float32
+    FOFGroupIDs:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Gas/FOFGroupIDs
+      Max: 2147483647
+      Min: 6
+      Shape:
+      - 16966525
+      Type: int64
+    LastAGNFeedbackScaleFactors:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Gas/LastAGNFeedbackScaleFactors
+      Max: 0.9140625
+      Min: -1.0
+      Shape:
+      - 16966525
+      Type: float32
+    Masses:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.98841e+43
+        Expression for physical CGS units:
+          Type: string
+          value: U_M  [ g ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Gas/Masses
+      Max: 0.3999795913696289
+      Min: 0.09986542910337448
+      Shape:
+      - 16966525
+      Type: float32
+    MetalMassFractions:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Gas/MetalMassFractions
+      Max: 0.1318359375
+      Min: 0.0
+      Shape:
+      - 16966525
+      Type: float32
+    ParticleIDs:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Gas/ParticleIDs
+      Max: 12664906947
+      Min: 5832000850
+      Shape:
+      - 16966525
+      Type: int64
+    SmoothedElementMassFractions:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Gas/SmoothedElementMassFractions
+      Max:
+      - 0.751953125
+      - 0.3798828125
+      - 0.0155487060546875
+      - 0.00714111328125
+      - 0.0394287109375
+      - 0.0082855224609375
+      - 0.00274658203125
+      - 0.00714111328125
+      - 0.0084381103515625
+      Min:
+      - 0.517578125
+      - 0.248046875
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      Shape:
+      - 16966525
+      - 9
+      Type: float32
+    SmoothedMetalMassFractions:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Gas/SmoothedMetalMassFractions
+      Max: 0.1025390625
+      Min: 0.0
+      Shape:
+      - 16966525
+      Type: float32
+    SmoothingLengths:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 3.08567758e+24
+        Expression for physical CGS units:
+          Type: string
+          value: U_L  [ cm ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Gas/SmoothingLengths
+      Max: 2.283055543899536
+      Min: 0.001537453499622643
+      Shape:
+      - 16966525
+      Type: float32
+    StarFormationRates:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 6.443997950038578e+23
+        Expression for physical CGS units:
+          Type: string
+          value: U_M U_t^-1  [ g s^-1 ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - -1.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Gas/StarFormationRates
+      Max: 588.0137329101562
+      Min: -0.9158602952957153
+      Shape:
+      - 16966525
+      Type: float32
+    Temperatures:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: U_T  [ K ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Gas/Temperatures
+      Max: 240910336.0
+      Min: 753.0
+      Shape:
+      - 16966525
+      Type: float32
+    Velocities:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 100000.0
+        Expression for physical CGS units:
+          Type: string
+          value: U_L U_t^-1  [ cm s^-1 ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - -1.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Gas/Velocities
+      Max:
+      - 3273.01171875
+      - 4108.3115234375
+      - 5307.4111328125
+      Min:
+      - -4282.6884765625
+      - -3674.1884765625
+      - -3450.488525390625
+      Shape:
+      - 16966525
+      - 3
+      Type: float32
+InternalCodeUnits:
+  Attributes:
+    Unit current in cgs (U_I):
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - 1.0
+    Unit length in cgs (U_L):
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - 3.08567758e+24
+    Unit mass in cgs (U_M):
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - 1.98841e+43
+    Unit temperature in cgs (U_T):
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - 1.0
+    Unit time in cgs (U_t):
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - 3.08567758e+19
+  Datasets: {}
+Lightcone:
+  Attributes:
+    cumulative_count_BH:
+      Type: array(dtype=int64,shape=(1,))
+      Value:
+      - 192965631
+    cumulative_count_DM:
+      Type: array(dtype=int64,shape=(1,))
+      Value:
+      - 422928714
+    cumulative_count_DMBackground:
+      Type: array(dtype=int64,shape=(1,))
+      Value:
+      - 0
+    cumulative_count_Gas:
+      Type: array(dtype=int64,shape=(1,))
+      Value:
+      - 851491710
+    cumulative_count_Neutrino:
+      Type: array(dtype=int64,shape=(1,))
+      Value:
+      - 72240580
+    cumulative_count_Sink:
+      Type: array(dtype=int64,shape=(1,))
+      Value:
+      - 0
+    cumulative_count_Stars:
+      Type: array(dtype=int64,shape=(1,))
+      Value:
+      - 230723404
+    expansion_factor:
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - 0.9159571737723008
+    file_complete:
+      Type: array(dtype=int32,shape=(1,))
+      Value:
+      - 1
+    file_index:
+      Type: array(dtype=int32,shape=(1,))
+      Value:
+      - 100
+    maximum_redshift_BH:
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - 15.0
+    maximum_redshift_DM:
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - 0.25
+    maximum_redshift_DMBackground:
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - -1.0
+    maximum_redshift_Gas:
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - 0.5
+    maximum_redshift_Neutrino:
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - 0.25
+    maximum_redshift_Sink:
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - -1.0
+    maximum_redshift_Stars:
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - 0.5
+    minimum_redshift_BH:
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - 0.0
+    minimum_redshift_DM:
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - 0.0
+    minimum_redshift_DMBackground:
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - 0.0
+    minimum_redshift_Gas:
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - 0.0
+    minimum_redshift_Neutrino:
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - 0.0
+    minimum_redshift_Sink:
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - 0.0
+    minimum_redshift_Stars:
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - 0.0
+    mpi_rank:
+      Type: array(dtype=int32,shape=(1,))
+      Value:
+      - 0
+    nr_mpi_ranks:
+      Type: array(dtype=int32,shape=(1,))
+      Value:
+      - 64
+    observer_position:
+      Type: array(dtype=float64,shape=(3,))
+      Value:
+      - 750.0
+      - 750.0
+      - 750.0
+  Datasets: {}
+Neutrino:
+  Attributes: {}
+  Datasets:
+    Coordinates:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 3.08567758e+24
+        Expression for physical CGS units:
+          Type: string
+          value: a U_L  [ cm ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Neutrino/Coordinates
+      Max:
+      - 375.0171176813879
+      - 312.5061944821591
+      - 388.4678793800453
+      Min:
+      - 187.50795836847794
+      - -0.01670096993268544
+      - -395.4860006199547
+      Shape:
+      - 3119539
+      - 3
+      Type: float64
+    ExpansionFactors:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Neutrino/ExpansionFactors
+      Max: 0.9159571528434753
+      Min: 0.903855562210083
+      Shape:
+      - 3119539
+      Type: float32
+    Masses:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.98841e+43
+        Expression for physical CGS units:
+          Type: string
+          value: U_M  [ g ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Neutrino/Masses
+      Max: 0.01787961646914482
+      Min: 0.01787961646914482
+      Shape:
+      - 3119539
+      Type: float32
+    ParticleIDs:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Neutrino/ParticleIDs
+      Max: 12663999566
+      Min: 11664000096
+      Shape:
+      - 3119539
+      Type: int64
+    Velocities:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 100000.0
+        Expression for physical CGS units:
+          Type: string
+          value: U_L U_t^-1  [ cm s^-1 ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - -1.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Neutrino/Velocities
+      Max:
+      - 16072.01953125
+      - 16314.70703125
+      - 16032.3671875
+      Min:
+      - -18304.166015625
+      - -18366.58984375
+      - -15401.845703125
+      Shape:
+      - 3119539
+      - 3
+      Type: float32
+Stars:
+  Attributes: {}
+  Datasets:
+    BirthDensities:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 6.767905773162602e-31
+        Expression for physical CGS units:
+          Type: string
+          value: U_M U_L^-3  [ g cm^-3 ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - -3.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Stars/BirthDensities
+      Max: 4093640704.0
+      Min: 327680.0
+      Shape:
+      - 1667612
+      Type: float32
+    BirthScaleFactors:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Stars/BirthScaleFactors
+      Max: 0.916015625
+      Min: 0.1014404296875
+      Shape:
+      - 1667612
+      Type: float32
+    Coordinates:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 3.08567758e+24
+        Expression for physical CGS units:
+          Type: string
+          value: a U_L  [ cm ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Stars/Coordinates
+      Max:
+      - 374.9961964369285
+      - 312.5009286025329
+      - 380.6971975704961
+      Min:
+      - 189.27198353171548
+      - 0.0018764369285690918
+      - -393.4164235630714
+      Shape:
+      - 1667612
+      - 3
+      Type: float64
+    ExpansionFactors:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Stars/ExpansionFactors
+      Max: 0.9159571528434753
+      Min: 0.903855562210083
+      Shape:
+      - 1667612
+      Type: float32
+    FOFGroupIDs:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Stars/FOFGroupIDs
+      Max: 2147483647
+      Min: 6
+      Shape:
+      - 1667612
+      Type: int64
+    InitialMasses:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.98841e+43
+        Expression for physical CGS units:
+          Type: string
+          value: U_M  [ g ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Stars/InitialMasses
+      Max: 0.39990234375
+      Min: 0.0987548828125
+      Shape:
+      - 1667612
+      Type: float32
+    LastAGNFeedbackScaleFactors:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Stars/LastAGNFeedbackScaleFactors
+      Max: 0.87890625
+      Min: -1.0
+      Shape:
+      - 1667612
+      Type: float32
+    Luminosities:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Stars/Luminosities
+      Max:
+      - 6358564864.0
+      - 5075107840.0
+      - 3384803328.0
+      - 3158310912.0
+      - 3196059648.0
+      - 3670016000.0
+      - 3938451456.0
+      - 4504682496.0
+      - 3875536896.0
+      Min:
+      - 148224.0
+      - 1054720.0
+      - 2392064.0
+      - 3354624.0
+      - 4644864.0
+      - 4923392.0
+      - 4710400.0
+      - 4743168.0
+      - 3260416.0
+      Shape:
+      - 1667612
+      - 9
+      Type: float32
+    Masses:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.98841e+43
+        Expression for physical CGS units:
+          Type: string
+          value: U_M  [ g ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Stars/Masses
+      Max: 0.38944491744041443
+      Min: 0.05506995692849159
+      Shape:
+      - 1667612
+      Type: float32
+    MetalMassFractions:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Stars/MetalMassFractions
+      Max: 0.11181640625
+      Min: 0.0
+      Shape:
+      - 1667612
+      Type: float32
+    ParticleIDs:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Stars/ParticleIDs
+      Max: 12664879835
+      Min: 5832000855
+      Shape:
+      - 1667612
+      Type: int64
+    SmoothedElementMassFractions:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Stars/SmoothedElementMassFractions
+      Max:
+      - 0.751953125
+      - 0.38037109375
+      - 0.01495361328125
+      - 0.00745391845703125
+      - 0.0411376953125
+      - 0.0087890625
+      - 0.002864837646484375
+      - 0.0071258544921875
+      - 0.0074005126953125
+      Min:
+      - 0.517578125
+      - 0.248046875
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      Shape:
+      - 1667612
+      - 9
+      Type: float32
+    SmoothedMetalMassFractions:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 1.0
+        Expression for physical CGS units:
+          Type: string
+          value: '[ - ] '
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Stars/SmoothedMetalMassFractions
+      Max: 0.1025390625
+      Min: 0.0
+      Shape:
+      - 1667612
+      Type: float32
+    Velocities:
+      Attributes:
+        Conversion factor to CGS (not including cosmological corrections):
+          Type: array(dtype=float64,shape=(1,))
+          Value:
+          - 100000.0
+        Expression for physical CGS units:
+          Type: string
+          value: U_L U_t^-1  [ cm s^-1 ]
+        U_I exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_L exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 1.0
+        U_M exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_T exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        U_t exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - -1.0
+        a-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+        h-scale exponent:
+          Type: array(dtype=float32,shape=(1,))
+          Value:
+          - 0.0
+      FullPath: Stars/Velocities
+      Max:
+      - 2724.99560546875
+      - 2758.729736328125
+      - 2399.185546875
+      Min:
+      - -2367.20458984375
+      - -2595.670166015625
+      - -2357.270263671875
+      Shape:
+      - 1667612
+      - 3
+      Type: float32
+Units:
+  Attributes:
+    Unit current in cgs (U_I):
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - 1.0
+    Unit length in cgs (U_L):
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - 3.08567758e+24
+    Unit mass in cgs (U_M):
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - 1.98841e+43
+    Unit temperature in cgs (U_T):
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - 1.0
+    Unit time in cgs (U_t):
+      Type: array(dtype=float64,shape=(1,))
+      Value:
+      - 3.08567758e+19
+  Datasets: {}
